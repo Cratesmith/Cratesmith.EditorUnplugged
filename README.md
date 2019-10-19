@@ -84,13 +84,15 @@ When auto is disabled press **ctrl-r** (or press the button) to recompile or loa
 
 *(Setting disabling auto significantly cuts down on CPU usage from unnecessary reloads when editing scripts)*
 
+### Closes the package manager window when reloading scripts 
+This is an odd one... but currently the package manager window in 2018/19 has a habit of making reload times much longer if it's open (even in a tab!). So just as a safety it'll now automatically be closed the moment a compile starts.
+
 
 
 ### When to compress assets ('On Build' recommended!)
 ![image](https://user-images.githubusercontent.com/4616107/67143932-2fb5f600-f2b4-11e9-8deb-3767f982b546.png)
 This drop down lets you easily control when assets get compressed for builds.
 *(Setting 'On Build' will make build times longer if there are new assets since the last build, but saves quite a lot of CPU usage)*
-
 
 
 
