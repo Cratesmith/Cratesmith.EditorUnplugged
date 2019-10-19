@@ -48,22 +48,35 @@ Your `manifest.json` should look something like this
 ## What EditorUnplugged does
 It adds a nifty toolbar into your scene view that helps you track battery usage and control features that affect battery life!
 
-**Session time counter**
+
+
+### Session time counter
 ![image](https://user-images.githubusercontent.com/4616107/67143849-1f514b80-f2b3-11e9-84f2-b374db761419.png)
 This shows how long unity has been running since startup.
 
 
-**Battery status**
+
+### Battery status
 ![editorunplugged-battery](https://user-images.githubusercontent.com/4616107/67143886-9b4b9380-f2b3-11e9-82ce-0935cc07e625.gif)
 Information about how the battery's current status and usage trends.
 Check the tooltips for detailed descriptions on each field.
 
-**FPS limiter** (recommended at all times!)
+
+
+
+
+### FPS limiter (recommended at all times!)
 ![image](https://user-images.githubusercontent.com/4616107/67143897-ccc45f00-f2b3-11e9-8073-6db5d8978efb.png)
 Restricts the game's framerate in the Unity editor if enabled. 
 *(Setting this to 15 or 30 will significantly reduce GPU related battery use!)*
 
-**Manual Reload/Recompile** (recommended when coding!)
+
+
+
+
+
+
+### Manual Reload/Recompile (recommended when coding!)
 ![image](https://user-images.githubusercontent.com/4616107/67143917-f7aeb300-f2b3-11e9-8b90-757814a17357.png)
 Adds a toggle for easily switching Auto-Refresh assets on and off. It also shows how many times scripts have been reloaded this session, and how long the last script reload took.
 
@@ -71,12 +84,20 @@ When auto is disabled press **ctrl-r** (or press the button) to recompile or loa
 
 *(Setting disabling auto significantly cuts down on CPU usage from unnecessary reloads when editing scripts)*
 
-**When to compress assets** ('On Build' recommended!)
+
+
+### When to compress assets ('On Build' recommended!)
 ![image](https://user-images.githubusercontent.com/4616107/67143932-2fb5f600-f2b4-11e9-8deb-3767f982b546.png)
 This drop down lets you easily control when assets get compressed for builds.
 *(Setting 'On Build' will make build times longer if there are new assets since the last build, but saves quite a lot of CPU usage)*
 
-**Lightmapping** ('On Demand' is strongly recommended!)
+
+
+
+
+
+
+### Lightmapping ('On Demand' is strongly recommended!)
 ![image](https://user-images.githubusercontent.com/4616107/67143946-6b50c000-f2b4-11e9-9424-60f566b23259.png)
 This drop down allows you to quickly switch between different lightmapping behaviours. 
 *(Setting 'On Demand' prevents the lightmapping engine recalculating Baked/Realtime GI when the scene is changed, which can be **very** GPU and CPU intensive)*
