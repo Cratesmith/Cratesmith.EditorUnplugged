@@ -1,0 +1,14 @@
+{
+  "name": "com.cratesmith.editorunplugged",
+  "displayName": "Cratesmith.EditorUnplugged",
+  "description": "A battery saving toolkit to make the unity editor more laptop battery friendly.",
+  "version": "0.0.1",
+  "unity": "2018.3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cratesmith/Cratesmith.EditorUnplugged.git"
+  },
+  "src": "Packages/Cratesmith.EditorUnplugged",
+  "author": "Kieran Lord <cratesmith@cratesmith.com> (https://github.com/cratesmith)"
+}
