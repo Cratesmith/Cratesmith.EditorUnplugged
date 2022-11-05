@@ -241,7 +241,7 @@ namespace EditorUnplugged
                 {
                     var r = GUILayoutUtility.GetRect(12,12);
                     GUI.Label(new Rect(r.xMin-4, r.yMin-1, r.height+8, r.height+8), new GUIContent(s_TextureIcon, "When to compress assets"));
-                    EditorUnpluggedUtil.CompressOnImport = EditorGUILayout.Popup(EditorUnpluggedUtil.CompressOnImport ? 0 : 1,
+                    EditorUnpluggedUtil.CompressOnImport = EditorGUILayout.Popup(EditorUnpluggedUtil.CompressOnImport ? 1 : 0,
                                                          new[] {"On Build", "On Import"}, GUILayout.Width(70))==1;
                 }
                 
